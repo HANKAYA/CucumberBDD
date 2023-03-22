@@ -1,4 +1,4 @@
-package code.pages;
+package pages;
 
 import code.utils.BrowserUtils;
 import code.utils.Driver;

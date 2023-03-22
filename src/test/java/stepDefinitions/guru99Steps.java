@@ -1,16 +1,16 @@
-package code.stepDefinitions;
+package stepDefinitions;
 
-import code.pages.guru99Home;
-import code.utils.BrowserUtils;
-import code.utils.ConfigurationsReader;
-import code.utils.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import pages.guru99Home;
+import utils.BrowserUtils;
+import utils.ConfigurationsReader;
+import utils.Driver;
 
 public class guru99Steps extends BrowserUtils {
-    guru99Home guru99Home = new guru99Home();
+    pages.guru99Home guru99Home = new guru99Home();
     @Given("The user wants to see Guru demo site")
     public void the_user_wants_to_see_guru_demo_site() {
         Driver.getDriver().get(ConfigurationsReader.getProperties("guru99url"));

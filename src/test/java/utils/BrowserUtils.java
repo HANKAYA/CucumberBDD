@@ -1,4 +1,4 @@
-package code.utils;
+package utils;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.*;
