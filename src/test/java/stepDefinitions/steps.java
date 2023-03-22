@@ -1,4 +1,4 @@
-package code.stepDefinitions;
+package stepDefinitions;
 
 import code.pages.Home;
 import code.pages.OrderSuccessful;

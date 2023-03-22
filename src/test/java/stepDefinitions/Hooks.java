@@ -1,12 +1,12 @@
-package code.stepDefinitions;
+package stepDefinitions;
 
-import code.utils.BrowserUtils;
-import code.utils.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utils.BrowserUtils;
+import utils.Driver;
 
 public class Hooks extends BrowserUtils {
     @Before
